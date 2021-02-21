@@ -1,0 +1,7 @@
+build/
+public/
+**/converage/
+**/node_modules/
+**/*.min.js
+*.config.js
+.*lintrc.js

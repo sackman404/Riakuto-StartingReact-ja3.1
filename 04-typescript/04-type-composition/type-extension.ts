@@ -17,4 +17,4 @@ const payA: IPayment = { unit: 'JPY', amount: 10000, date };
 const payB: TPayment = { unit: 'USD', amount: 100, date };
 
 console.log(payA);
-console.log(payB);
+console.log(typeof(payB));

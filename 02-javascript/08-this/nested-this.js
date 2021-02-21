@@ -8,8 +8,9 @@ class Person {
       console.log(`Hi, I'm ${this.name}`);
     };
     doIt();
+    console.log('greet')
   }
 }
 
 const minky = new Person('Momo');
-minky.greet();
+// minky.greet();

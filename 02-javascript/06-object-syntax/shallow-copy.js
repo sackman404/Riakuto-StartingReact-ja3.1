@@ -4,8 +4,14 @@ const patty = {
   address: { town: 'Maple Town' },
 };
 
-const rolley = { ...patty, name: 'Rolley Cocker' };
+// const rolley = { ...patty, name: 'Rolley Cocker' };
+// rolley.email = 'rolley@palm.town';
+// rolley.address.town = 'Palm Town';
+
+const rolley = JSON.parse(JSON.stringify(patty));
+rolley.name = 'Rolley Cocker';
 rolley.email = 'rolley@palm.town';
 rolley.address.town = 'Palm Town';
 
 console.log(patty);
+console.log(rolley)

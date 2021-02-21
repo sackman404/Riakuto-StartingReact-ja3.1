@@ -6,7 +6,7 @@ import './App.css';
 
 const App: React.FunctionComponent = () => (
   <div className="App">
-    <Greets name="Patty" times={4}>
+    <Greets name="Patty" times={0}>
       <span role="img" aria-label="rabbit">🐰</span>
     </Greets>
     <SummaryText>
@@ -20,5 +20,14 @@ const App: React.FunctionComponent = () => (
     <TextInput />
   </div>
 );
+
+
+const elements = (
+  <div>
+    <div>foo</div>
+    <div>test</div>
+    <div>ex</div>
+  </div>
+)
 
 export default App;
